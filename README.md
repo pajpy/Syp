@@ -7,3 +7,15 @@ Reason 2 - becase its much better understandable by students than the other lang
 Development Process-Section
 
 Every SCRUM memeber have to clone remote repository to their local machines and they can do that using SSH key or HTTPS. 
+
+
+Section Usage
+
+
+
+Section Testing
+You can run Jest directly from the CLI (if it's globally available in your PATH, e.g. by yarn global add jest or npm install jest --global) with a variety of useful options.
+
+Here's how to run Jest on files matching my-test, using config.json as a configuration file and display a native OS notification after the run:
+
+jest my-test --notify --config=config.json
